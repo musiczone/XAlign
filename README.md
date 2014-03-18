@@ -25,7 +25,6 @@ Here are some example alignment patterns. Of course you can make your own. The p
 
 ### Todo:
 
-- [x] Support Xcode4.
 - [x] More easy to customize alignment patterns.
 
 ## Install & Update
@@ -56,6 +55,12 @@ Here are some example alignment patterns. Of course you can make your own. The p
 ## Uninstall
 ```
 $ curl http://qfi.sh/XAlign/build/uninstall.sh | sh
+```
+
+or Delete the following directory:
+
+```
+$HOME/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XAlign.xcplugin
 ```
 
 ## Usage
